@@ -59,5 +59,5 @@ int main() {
     cout << "\n";
     cout << st.to_string();
     
-    return 0;
+    return ;
 }
