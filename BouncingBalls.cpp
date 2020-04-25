@@ -17,5 +17,5 @@ int main() {
 	    }
 	    cout<<c<<endl;
 	}
-	return ;
+	return 0 ;
 }
