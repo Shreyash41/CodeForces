@@ -1,21 +1,18 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
-long long int M,p,t;
-#define power log(M)
-#define distance M-pow(2,p)
 
 int main() {
-	cin>>t>>M;
+	// your code goes here
+	long long int t,n;
+	cin>>t;
 	while(t--){
-	    int c = 0;
-	    while(M){
-	        p = power/log(2);
-	        M = distance;
-	        if(M != 0){
-	            c++;
-	        }
+	    cin>>n;
+	    int c=0;
+	    while(n){
+	        c++;
+	        n=n&(n-1);
 	    }
-	    cout<<c<<endl;
+	    cout<<c-1<<"\n";
 	}
-	return 0 ;
+	return 0;
 }
