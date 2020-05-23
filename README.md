@@ -1,2 +1,2 @@
 # My Solutions
-My Solved Solutions of HackerRank,HackerEarth,Codechef 
+My Solved Solutions of CODEFORCES.
